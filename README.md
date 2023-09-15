@@ -1,0 +1,4 @@
+#CREDIT CARD FRAUD DETECTION:
+
+credit card fraud detection system that can accurately detect and prevent fraudulent transactions in real-time, minimizing financial losses for both cardholders and financial institutions 
+It is done by machine learning(Logistic Regression).The problem is we have to many preprocess  the datas needed for detection.Basically Credit card fraud is detected by anomaly of persons transaction(not related to regular transaction history like that).I worked with an Credit Card dataset available in internet for model.The dataset contains a many details like merchant,amount,fraud label,city,category etc. First I did a preprocessing the dataset,then standardized and apply pca,then split the data into training data and for testing data.Finally Trained by Machine learning Logistic Regression Algorithm
